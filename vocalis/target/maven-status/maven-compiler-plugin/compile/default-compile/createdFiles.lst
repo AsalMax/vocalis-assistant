@@ -1,1 +1,10 @@
+com\vocalis\Assistant.class
+com\vocalis\ConfigLoader.class
+com\vocalis\SpeechRecognizer.class
+com\vocalis\STTTest.class
+com\vocalis\Main.class
+com\vocalis\CalendarManager.class
 com\vocalis\App.class
+com\vocalis\VoiceEngine.class
+com\vocalis\Microphone.class
+com\vocalis\TrayManager.class
