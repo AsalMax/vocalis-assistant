@@ -1,9 +1,11 @@
-// TaskStorage.java — FINAL POSTGRESQL VERSION (copy 100% as-is)
+package com.reminder.storage;
+import com.reminder.model.Task;
 import java.sql.*;
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.util.ArrayList;
 import java.util.List;
+
 
 public class TaskStorage {
 
@@ -105,7 +107,7 @@ public class TaskStorage {
             e.printStackTrace();
         }
 
-        TaskManager.getInstance().loadTasks(loaded);
+        com.reminder.manager.TaskManager.getInstance().loadTasks(loaded);
         System.out.println("Loaded " + loaded.size() + " tasks from PostgreSQL");
     }
 }

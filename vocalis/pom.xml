@@ -95,7 +95,7 @@
         </repository>
         <repository>
             <id>sociaal</id>
-            <name>Sociaal Repository</name>
+            <name>Social Repository</name>
             <url>https://maven.sociaal.net/maven2</url>
         </repository>
     </repositories>

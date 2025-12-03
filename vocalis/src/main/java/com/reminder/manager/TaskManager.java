@@ -1,7 +1,10 @@
+package com.reminder.manager;
+import com.reminder.model.Task;
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.util.*;
 import java.util.stream.Collectors;
+
 
 public class TaskManager {
     private static TaskManager instance;
